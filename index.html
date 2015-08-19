@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Clustering</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="algorithms-wrapper"></div>
+<div class="field-wrapper"></div>
+
+<script type="template" id="field-template">
+    <div class="field"></div>
+    <div class="field-control">
+        <input class="field-control-item" type="number" placeholder="Points radius" data-bind="radius"/>
+        <input class="field-control-item" type="number" placeholder="Points count" data-bind="count"/>
+        <button class="field-control-item fn-refresh"><i class="fa fa-refresh"></i></button>
+    </div>
+</script>
+
+<script type="template" id="algorithms-template">
+    <ul class="algorithms"></ul>
+    <div class="parameters"></div>
+</script>
+
+<script src="js/proto.js"></script>
+<script src="js/pointsDistances.js"></script>
+<script src="js/distances.js"></script>
+
+<script src="js/collection.js"></script>
+<script src="js/point.js"></script>
+<script src="js/pointsFactory.js"></script>
+
+<script src="js/field.js"></script>
+<script src="js/algorithms.js"></script>
+<script src="js/cluster.js"></script>
+
+<script src="js/k-means.js"></script>
+<script src="js/h12l.js"></script>
+<script src="js/forel.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
